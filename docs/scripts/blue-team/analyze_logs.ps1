@@ -1,5 +1,4 @@
 # PowerShell: Анализ логов после Purple Team Exercise
-# Автор: [Твоё имя]
 
 param(
     [string]$LogPath = "C:\Logs\",
