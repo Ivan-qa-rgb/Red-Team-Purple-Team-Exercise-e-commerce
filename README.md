@@ -139,7 +139,7 @@
 
 - [Приложение A: Подробный timeline](./docs/timeline.md)
 - [Приложение B: MITRE ATT&CK mapping](./docs/mitre-mapping.md)
-- [Приложение C: Sigma-правила](./detections/sigma/)
+- [Приложение C: Sigma-правила](./docs/detections/sigma)
 - [Приложение D: IR-плейбуки](./docs/ir-playbooks.md)
 - [Приложение E: Скрипты Blue Team](./docs/scripts/blue-team)
 
