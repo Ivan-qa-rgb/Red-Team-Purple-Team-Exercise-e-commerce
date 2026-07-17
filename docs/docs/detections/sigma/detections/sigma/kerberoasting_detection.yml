@@ -1,0 +1,27 @@
+title: Kerberoasting Detection
+id: 1a2b3c4d-5e6f-7a8b-9c0d-1e2f3a4b5c6d
+status: experimental
+description: |
+  Обнаружение аномального количества запросов TGS (Kerberoasting).
+  Злоумышленники запрашивают TGS-билеты для сервисных учёток с целью оффлайн-крэкинга.
+  Результат Purple Team Exercise, ритейл/e-commerce, июль 2026.
+logsource:
+  product: windows
+  service: security
+detection:
+  selection:
+    EventID: 4769
+    TicketOptions: '0x40810010'
+    TicketEncryptionType:
+      - '0x17'
+      - '0x1'
+  timeframe: 10m
+  condition: selection | count() > 5
+falsepositives:
+  - Сервисные окна обслуживания
+  - Легитимные сканеры безопасности
+level: high
+tags:
+  - attack.credential_access
+  - attack.t1558.003
+  - detection.purple-team-2026
