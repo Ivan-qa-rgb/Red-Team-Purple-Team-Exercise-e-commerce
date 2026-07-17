@@ -1,6 +1,4 @@
 # PowerShell: Hunt IoC после Purple Team Exercise
-# Автор: [Твоё имя]
-# Дата: 2026-07-17
 
 # 1. Поиск WMI Event Subscription
 Write-Host "[*] Проверка WMI Event Subscription..." -ForegroundColor Cyan
