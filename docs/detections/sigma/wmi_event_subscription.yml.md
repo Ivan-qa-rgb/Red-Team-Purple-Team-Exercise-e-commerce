@@ -125,7 +125,6 @@ tags:
   - detection.purple-team-2026
     
 ## detections/yara/suspicious_powershell.yar
-rule Suspicious_PowerShell_PurpleTeam_2026
 {
     meta:
         description = "Detects suspicious PowerShell patterns from Purple Team Exercise"
