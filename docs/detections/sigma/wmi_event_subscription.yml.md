@@ -128,8 +128,6 @@ tags:
 {
     meta:
         description = "Detects suspicious PowerShell patterns from Purple Team Exercise"
-        author = "[Твоё имя]"
-        date = "2026-07-17"
         reference = "Purple Team Exercise: Retail/E-commerce"
     
     strings:
