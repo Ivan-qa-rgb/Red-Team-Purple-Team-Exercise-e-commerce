@@ -140,5 +140,5 @@
 - [Приложение A: Подробный timeline](./docs/timeline.md)
 - [Приложение B: MITRE ATT&CK mapping](./docs/mitre-mapping.md)
 - [Приложение C: Sigma-правила](./detections/sigma/)
-- [Приложение D: IR-плейбуки](./docs/ir-playbooks.md)
+- [Приложение D: IR-плейбуки]https://github.com/Ivan-qa-rgb/Red-Team-Purple-Team-Exercise-e-commerce/blob/main/docs/docs/ir-playbooks.md
 - [Приложение E: Скрипты Blue Team](./scripts/blue-team/)
