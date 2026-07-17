@@ -1,3 +1,4 @@
+## detections/sigma/wmi_event_subscription.yml
 title: WMI Event Subscription Persistence
 id: 9b3c4d5e-6f7a-8b9c-0d1e-2f3a4b5c6d7e
 status: experimental
